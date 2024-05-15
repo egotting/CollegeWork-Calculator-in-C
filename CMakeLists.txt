@@ -5,12 +5,12 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(CollegeWork_Calculator_in_C main.c
         Repository/DivisaoRepository.c
-        Repository/interface/IOperacoes.h
-        Repository/SomaRepository.c
+        Repository/interface/ICalculadora.h
+        Repository/AdicaoRepository.c
         Repository/MultiplicacaoRepository.c
         Repository/SubtracaoRepository.c
         Controller/Operacoes.c
-        Controller/IOperacoes.h
+        Controller/interface/IOperacoes.h
         Models/HistoricoDeContas.c
         Models/interface/IHistoricoDeConta.h
 )

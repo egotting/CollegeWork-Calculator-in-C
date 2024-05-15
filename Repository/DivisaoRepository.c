@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 
-#include "interface/IOperacoes.h"
+#include "interface/ICalculadora.h"
 
-
+// Implementando a funcao Divisao da interface ICalculator
 float Divisao(const float x,const float y) {
     if(y != 0) {
         return x / y;

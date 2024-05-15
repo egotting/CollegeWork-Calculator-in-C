@@ -1,8 +1,7 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "Controller/interface/IOperacoes.h"
 
-#include "Controller/IOperacoes.h"
+
 int main(void) {
-    Operacoes();
+    Operacoes(); // Chamando o metodo "Operacoes" para ser compilado pelo Clang
     return 0;
 }

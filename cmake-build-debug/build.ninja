@@ -61,8 +61,8 @@ build CMakeFiles/CollegeWork_Calculator_in_C.dir/Repository/DivisaoRepository.c.
   OBJECT_DIR = CMakeFiles/CollegeWork_Calculator_in_C.dir
   OBJECT_FILE_DIR = CMakeFiles/CollegeWork_Calculator_in_C.dir/Repository
 
-build CMakeFiles/CollegeWork_Calculator_in_C.dir/Repository/SomaRepository.c.o: C_COMPILER__CollegeWork_Calculator_in_C_unscanned_Debug /home/ego/src/github.com/fantaasyyy/CollegeWork-Calculator-in-C/Repository/SomaRepository.c || cmake_object_order_depends_target_CollegeWork_Calculator_in_C
-  DEP_FILE = CMakeFiles/CollegeWork_Calculator_in_C.dir/Repository/SomaRepository.c.o.d
+build CMakeFiles/CollegeWork_Calculator_in_C.dir/Repository/AdicaoRepository.c.o: C_COMPILER__CollegeWork_Calculator_in_C_unscanned_Debug /home/ego/src/github.com/fantaasyyy/CollegeWork-Calculator-in-C/Repository/AdicaoRepository.c || cmake_object_order_depends_target_CollegeWork_Calculator_in_C
+  DEP_FILE = CMakeFiles/CollegeWork_Calculator_in_C.dir/Repository/AdicaoRepository.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/CollegeWork_Calculator_in_C.dir
   OBJECT_FILE_DIR = CMakeFiles/CollegeWork_Calculator_in_C.dir/Repository
@@ -99,7 +99,7 @@ build CMakeFiles/CollegeWork_Calculator_in_C.dir/Models/HistoricoDeContas.c.o: C
 #############################################
 # Link the executable CollegeWork_Calculator_in_C
 
-build CollegeWork_Calculator_in_C: C_EXECUTABLE_LINKER__CollegeWork_Calculator_in_C_Debug CMakeFiles/CollegeWork_Calculator_in_C.dir/main.c.o CMakeFiles/CollegeWork_Calculator_in_C.dir/Repository/DivisaoRepository.c.o CMakeFiles/CollegeWork_Calculator_in_C.dir/Repository/SomaRepository.c.o CMakeFiles/CollegeWork_Calculator_in_C.dir/Repository/MultiplicacaoRepository.c.o CMakeFiles/CollegeWork_Calculator_in_C.dir/Repository/SubtracaoRepository.c.o CMakeFiles/CollegeWork_Calculator_in_C.dir/Controller/Operacoes.c.o CMakeFiles/CollegeWork_Calculator_in_C.dir/Models/HistoricoDeContas.c.o
+build CollegeWork_Calculator_in_C: C_EXECUTABLE_LINKER__CollegeWork_Calculator_in_C_Debug CMakeFiles/CollegeWork_Calculator_in_C.dir/main.c.o CMakeFiles/CollegeWork_Calculator_in_C.dir/Repository/DivisaoRepository.c.o CMakeFiles/CollegeWork_Calculator_in_C.dir/Repository/AdicaoRepository.c.o CMakeFiles/CollegeWork_Calculator_in_C.dir/Repository/MultiplicacaoRepository.c.o CMakeFiles/CollegeWork_Calculator_in_C.dir/Repository/SubtracaoRepository.c.o CMakeFiles/CollegeWork_Calculator_in_C.dir/Controller/Operacoes.c.o CMakeFiles/CollegeWork_Calculator_in_C.dir/Models/HistoricoDeContas.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/CollegeWork_Calculator_in_C.dir
   POST_BUILD = :
